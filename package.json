@@ -16,6 +16,7 @@
 	"license": "MIT",
 	"homepage": "https://servicecanada.github.io/canada-life-events/",
 	"devDependencies": {
+		"@double-great/stylelint-a11y": "^3.4.13",
 		"eslint": "^10.4.0",
 		"eslint-config-jquery": "^3.0.2",
 		"globals": "^17.6.0",
@@ -26,7 +27,11 @@
 		"grunt-contrib-uglify": "^5.2.2",
 		"grunt-eslint": "^26.0.0",
 		"grunt-html": "^18.1.0",
-		"grunt-lintspaces": "^1.0.0"
+		"grunt-lintspaces": "^1.0.0",
+		"grunt-stylelint": "^0.21.0",
+		"stylelint": "^17.12.0",
+		"stylelint-config-standard": "^40.0.0",
+		"stylelint-order": "^8.1.1"
 	},
 	"browserslist": [
 		"defaults",
